@@ -25,15 +25,22 @@
   float: right;
 }
 
-#home{
-  background-image: url(../img/keyvisual/keyvisual.jpg);
-  background-repeat: no-repeat;
-  min-height: 100vh;
+.button:hover{
+  background-color: #333;
+  transition: background-color 0.3s;
 }
 
 .big-bg{
+  background-image: url(../img/keyvisual/keyvisual.jpg);
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  opacity: 0.7;
   background-size: cover;
   background-position: center top;
+}
+
+.big-bg:hover{
+  opacity: 1.0;
 }
 
 .keyvisual{
@@ -144,8 +151,7 @@
 .table{
   border-collapse: collapse;
   margin: auto;
-  padding-bottom: 5opx
-  ;
+  padding-bottom: 5opx;
 }
 
 th, td{
@@ -180,6 +186,42 @@ th, td{
   background-color: #e3f2fd;
 }
 
+.facebook{
+color: #8c8c8c;
+}
+
+.facebook:hover{
+  color: #fff;
+  transition: 0.5s;
+}
+
+.dribbble{
+  color: #8c8c8c;
+}
+
+.dribbble:hover{
+  color: #fff;
+  transition: 0.5s;
+}
+
+.twitter{
+  color: #8c8c8c;
+}
+
+.twitter:hover{
+  color: #fff;
+  transition: 0.5s; 
+}
+
+.envelope{
+  color: #8c8c8c;
+}
+
+.envelope:hover{
+  color: #fff;
+  transition: 0.5s; 
+}
+
 .sns :nth-child(1){
   margin: 25px 185px 25px 0;
 }
@@ -199,6 +241,8 @@ th, td{
 .sns :last-child{
   margin: 0;
 }
+
+
 
 footer{
   background: #cfd8dc;

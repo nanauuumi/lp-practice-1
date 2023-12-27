@@ -60,26 +60,31 @@
 }
 
 .pc{
-  display: flex;
   background-color: #e3f2fd;
-  padding-top: 50px;
-  text-align: center;
+  justify-content: center;
+  display: flex;
 }
 
-.title2{
-  padding-top: 20px;
-  padding-bottom: 35px;
+.pc-img{
+  padding-top: 50px;
+  margin:  0  0  0 250px;
+}
+
+.title2 h1{
+  padding-top: 70px;
   font-size: 40px;
   letter-spacing: 10px;
+  margin-left: 200px;
+  padding-right: 200px;
   text-align: center;
-  padding: auto;
 }
 
 .title2 p{
   font-size: 15px;
   line-height: 18px;
   word-break: break-all;
-  margin-top: 35px;
+  margin: 35px;
+  text-align: center;
 }
 
 .title3{
@@ -132,7 +137,7 @@
 .table{
   border-collapse: collapse;
   margin: auto;
-  padding-bottom: 5opx;
+  padding-bottom: 50px;
 }
 
 th, td{

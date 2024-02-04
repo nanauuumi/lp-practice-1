@@ -27,6 +27,7 @@
   padding: 12px 14px;
   color: #ffffff;
   float: right;
+  margin-right: 10px;
 }
 
 .button:hover{
@@ -34,44 +35,50 @@
   transition: background-color 0.3s;
 }
 
+.main-pc{
+  padding-top: 78px;
+}
+
 .big-bg{
   background-image: url(../img/keyvisual/keyvisual.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  padding-top: 400px;
+  padding-bottom: 400px;
 }
 
-
-.title h1{
+.title-keyvisual h1{
   font-size: 65px;
   font-weight: 700;
   color: #6ba7eb;
   text-align: center;
-  padding:100px 0 0 0;
-  padding-top: 400px;
 }
 
-.title p{
+.title-keyvisual p{
   color: #ffffff;
   font-size: 40px;
   font-weight: 700;
   padding-top: 30px;
-  padding-bottom: 400px;
   text-align: center;
 }
 
-.pc{
+.work{
   background-color: #e3f2fd;
+  padding-top: 50px;
+}
+
+.pc{
   justify-content: center;
   display: flex;
 }
 
-.pc-img{
-  padding-top: 50px;
-  margin:  0  0  0 250px;
+.pc skills-inner{
+  width: 1100px;
 }
 
+
 .title-work h1{
-  padding-top: 70px;
+  padding-top: 20px;
   font-size: 40px;
   letter-spacing: 10px;
   text-align: center;
@@ -83,42 +90,50 @@
   word-break: break-all;
   text-align: center;
   padding: 35px;
+  width: 850px;
 }
 
-.title3{
+.title-skills{
   text-align: center;
   font-size: 40px;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  padding-top:  50px;
+  padding-bottom: 50px;
   letter-spacing: 10px;
 }
 
 .box{
-  display: grid;
-  place-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 20px;
+  width: 100%;
+  list-style: none;
 }
 
-.box img:nth-child(1){
+li:nth-child(1),li:nth-child(2){
+  margin-bottom: 100px;
   margin-right: 100px;
 }
 
-.box img:nth-child(2){
+li:nth-child(3){
+  margin-bottom: 100px;
+}
+
+li:nth-child(4),:nth-child(5){
+  margin-bottom: 50px;
   margin-right: 100px;
 }
 
-.box img:nth-child(3){
-  margin-left: 100px;
-  margin-right: 100px;
+li:nth-child(6){
+  margin-bottom: 50px;
 }
 
-.box img:last-child{
-  margin: 0;
+.box img{
+  width:300px; 
+  height:300px;
+  vertical-align: bottom;
 }
 
-.box2{
-  margin-top: 100px;
-  margin-bottom: 70px;
-}
 
 .title4{
   text-align: center;
@@ -227,17 +242,14 @@ color: #8c8c8c;
 }
 
 
-
 footer{
   background: #cfd8dc;
   padding: 20px 0 25px 0;
-
 }
 
 .footer1{
-  float: right;
+  text-align: right;
   letter-spacing: 0.5px;
   font-size: 10px;
-
-
+  padding-right: 50px
 }

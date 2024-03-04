@@ -18,9 +18,6 @@
   position: fixed;
   top: 0;
   width: 100%;
-}
-
-.icon{
   padding: 12px 10px 15px 10px;
 }
 
@@ -133,18 +130,15 @@
   width: 100%;
 }
 
-li:nth-child(1),li:nth-child(2){
+li:nth-child(3n-1),li:nth-child(3n-2){
   margin-bottom: 100px;
   margin-right: 100px;
 }
 
-li:nth-child(3){
+li:nth-child(3n){
   margin-bottom: 100px;
 }
 
-li:nth-child(4),li:nth-child(5){
-  margin-right: 100px;
-}
 
 .box img{
   width:300px; 
@@ -153,7 +147,7 @@ li:nth-child(4),li:nth-child(5){
 }
 
 
-.title4{
+.plan-title{
   text-align: center;
   font-size: 50px;
   padding-top: 50px;
@@ -195,50 +189,35 @@ th, td{
   background: #6ba7eb;
 }
 
-.icon2{
+.sns{
   font-size: 40px;
   overflow: hidden;
   text-align: center;
   padding: 200px 0;
   background-color: #e3f2fd;
   margin: 0 auto;
+  transition: 0.5s;
 }
 
 .facebook{
 color: #8c8c8c;
-transition: 0.5s;
-}
-
-.facebook:hover{
-  color: #fff;
 
 }
 
 .dribbble{
   color: #8c8c8c;
-  transition: 0.5s;
-}
-
-.dribbble:hover{
-  color: #fff;
 }
 
 .twitter{
   color: #8c8c8c;
-  transition: 0.5s;
-}
-
-.twitter:hover{
-  color: #fff;
 }
 
 .envelope{
   color: #8c8c8c;
-  transition: 0.5s;
 }
 
-.envelope:hover{
-  color: #fff;
+.sns:hover{
+  background-color: #fff;
 }
 
 .sns :nth-child(1){
@@ -261,13 +240,12 @@ transition: 0.5s;
   margin: 0;
 }
 
-
 footer{
   background: #cfd8dc;
   padding: 20px 0 25px 0;
 }
 
-.footer1{
+.footer-last{
   text-align: right;
   letter-spacing: 0.5px;
   font-size: 10px;

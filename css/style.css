@@ -73,7 +73,6 @@
   text-align: center;
 }
 
-
 .pc-img{
   width: 40%;
 }
@@ -81,7 +80,6 @@
 .title-work{
   width: 60%;
 }
-
 
 .title-work h1{
   margin-top: 20px;
@@ -109,13 +107,17 @@
   letter-spacing: 10px;
 }
 
+.imgbox{
+  width: auto;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 70px;
+}
+
 .box{
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  width: 100%;
   list-style: none;
-  padding-bottom:70px;
 }
 
 .box1{
@@ -126,19 +128,19 @@
 .box1:hover{
   opacity: 1.0;
 }
-.spacebox{
-  width: 100%;
-}
 
 li:nth-child(3n-1),li:nth-child(3n-2){
-  margin-bottom: 100px;
   margin-right: 100px;
+  margin-bottom: 100px;
 }
 
 li:nth-child(3n){
-  margin-bottom: 100px;
+ margin-right: 0;
 }
 
+.box1:nth-last-child(1),.box1:nth-last-child(2),.box1:nth-last-child(3){
+  margin-bottom: 0;
+}
 
 .box img{
   width:300px; 
@@ -150,25 +152,22 @@ li:nth-child(3n){
 .plan-title{
   text-align: center;
   font-size: 50px;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .plan{
   background-color: #d0dfea;
-  padding-bottom: 50px;
+  padding: 50px 0;
 }
 
 .table{
-  border-collapse: collapse;
-  margin: auto;
-  padding-bottom: 50px;
+  table-layout: fixed;
+  width: 1100px;
+  margin: 0 auto;
 }
 
 th, td{
   border-left: 2px solid #fff;
-  width: 200px;
-  height: 50px;
   font-weight: normal;
   vertical-align: middle;
   text-align: center;
@@ -193,52 +192,33 @@ th, td{
   font-size: 40px;
   overflow: hidden;
   text-align: center;
-  padding: 200px 0;
+  padding-top: 200px;
+  padding-bottom: 200px;
   background-color: #e3f2fd;
-  margin: 0 auto;
   transition: 0.5s;
 }
 
-.facebook{
-color: #8c8c8c;
-
+.sns-icon{
+ display: flex;
+ justify-content: center;
 }
 
-.dribbble{
+.icon{
   color: #8c8c8c;
 }
 
-.twitter{
-  color: #8c8c8c;
-}
-
-.envelope{
-  color: #8c8c8c;
-}
-
-.sns:hover{
+.icon:hover {
   background-color: #fff;
 }
 
-.sns :nth-child(1){
+.sns-icon li{
   margin: 25px 185px 25px 0;
 }
 
-.sns :nth-child(2){
-  margin: 25px 185px 25px 0;
+.sns-icon li:nth-last-child(1){
+  margin-right: 0;
 }
 
-.sns :nth-child(3){
-  margin: 25px 185px 25px 0;
-}
-
-.sns :nth-child(4){
-  margin: 25px 185px 25px 0;
-}
-
-.sns :last-child{
-  margin: 0;
-}
 
 footer{
   background: #cfd8dc;

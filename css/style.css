@@ -98,6 +98,7 @@
 
 .skills{
   padding-top:  50px;
+  padding-bottom: 70px;
 }
 
 .title-skills{
@@ -111,7 +112,7 @@
   width: auto;
   margin: 0 auto;
   text-align: center;
-  padding-bottom: 70px;
+
 }
 
 .box{
@@ -129,12 +130,12 @@
   opacity: 1.0;
 }
 
-li:nth-child(3n-1),li:nth-child(3n-2){
+.box1:nth-child(3n-1),.box1:nth-child(3n-2){
   margin-right: 100px;
   margin-bottom: 100px;
 }
 
-li:nth-child(3n){
+.box1:nth-child(3n){
  margin-right: 0;
 }
 
@@ -189,34 +190,39 @@ th, td{
 }
 
 .sns{
-  font-size: 40px;
-  overflow: hidden;
-  text-align: center;
+  background-color: #e3f2fd;
   padding-top: 200px;
   padding-bottom: 200px;
-  background-color: #e3f2fd;
-  transition: 0.5s;
+
 }
 
 .sns-icon{
- display: flex;
- justify-content: center;
+  font-size: 40px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
-.icon{
+.icon_la{
+  width: 185px;
   color: #8c8c8c;
+  overflow: hidden;
+  font-size: 40px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  transition: 0.5s;
 }
 
-.icon:hover {
+
+.icon_la:hover {
+  transition: 0.5s;
   background-color: #fff;
+  text-decoration: none;
 }
 
-.sns-icon li{
-  margin: 25px 185px 25px 0;
-}
-
-.sns-icon li:nth-last-child(1){
-  margin-right: 0;
+.link_icon{
+  display: block;
+  height: 100%;
 }
 
 
